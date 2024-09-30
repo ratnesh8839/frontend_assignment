@@ -1,17 +1,17 @@
 import React from 'react';
-import todo from '../icons_FEtask/To-do.svg';
-import in_progress from '../icons_FEtask/in-progress.svg';
-import backlog from '../icons_FEtask/Backlog.svg';
-import done from '../icons_FEtask/Done.svg';
-import cancelled from '../icons_FEtask/Cancelled.svg';
-import add from '../icons_FEtask/add.svg';
-import threeDOt from '../icons_FEtask/3_dot_menu.svg';
-import user from '../icons_FEtask/user.jpg';
-import no_priority from '../icons_FEtask/No-priority.svg';
-import low_priority from '../icons_FEtask/Img-Low-Priority.svg';
-import medium_priority from '../icons_FEtask/Img-Medium-Priority.svg';
-import high_priority from '../icons_FEtask/Img-High-Priority.svg';
-import urgent_priority from '../icons_FEtask/SVG-UrgentPrioritycolour.svg';
+import todo from './public/To-do.svg';
+import in_progress from './public/in-progress.svg';
+import backlog from './public/Backlog.svg';
+import done from './public/Done.svg';
+import cancelled from './public/Cancelled.svg';
+import add from './public/add.svg';
+import threeDOt from './public/3_dot_menu.svg';
+import user from './public/user.jpg';
+import no_priority from './public/No-priority.svg';
+import low_priority from './public/Img-Low-Priority.svg';
+import medium_priority from './public/Img-Medium-Priority.svg';
+import high_priority from './public/Img-High-Priority.svg';
+import urgent_priority from './public/Img-High-Priority.svg';
 
 const Cards = ({ task, groupBy }) => {
   return (

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Display from '../icons_FEtask/Display.svg';
-import Down from '../icons_FEtask/Down.svg';
+import Display from './public/Display.svg';
+import Down from './public/down.svg';
 import Cards from './Cards';
 import LayoutColumn from './LayoutColumn';
 
